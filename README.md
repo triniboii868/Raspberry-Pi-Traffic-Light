@@ -35,7 +35,7 @@ This is built into the Raspberry Pi Board, it comes with a few different program
 
 **Importing Libraries**
 
-These libraries listed below are built-in into Python and these coding environments, the functionality of these libraries vary. Let's discuss it:
+These libraries listed below are built-in into Python and these coding environments, the functionality of these libraries vary. Let's discuss them:
 
  **import gpiozero** : a special library designed for interacting with the General Purpose Input/Output (GPIO) pins on a Raspberry Pi (or other compatible systems). It provides a high-level, object-oriented interface for controlling digital I/O devices connected to the GPIO pins, simplifying tasks like turning LEDs on and off, reading button presses, and working with sensors. 
 
