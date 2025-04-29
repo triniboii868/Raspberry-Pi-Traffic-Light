@@ -15,6 +15,7 @@ Using the Raspberry Pi, the options are limitless, for the sake of my final proj
 ![IMG_4119](https://github.com/user-attachments/assets/0fc92131-b269-46e1-8721-b8e469f603fe)
 
 The following pieces of apparatus below was used in my robot:
+
 **Physical Apparatus**
 
 1) Raspberry Pi 4
