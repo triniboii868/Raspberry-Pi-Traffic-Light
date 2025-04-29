@@ -31,7 +31,26 @@ The following pieces of apparatus below was used in my robot:
 This is built into the Raspberry Pi Board, it comes with a few different programming languages such as C/C++, Javascript, Python (which we used to program our robot), and a couple other languages. The coding environment which was used primarily was built into the Raspberry Pi board called Thonny. All code that is full functional will be associated with a python file named "trafficlight.py" in this repository and can be accessed by anyone. 
 
 
+## Python Code Analysis
+
+**Importing Libraries**
+
+These libraries listed below are built-in into Python and these coding environments, the functionality of these libraries vary. Let's discuss it:
+
+ **import gpiozero** : a special library designed for interacting with the General Purpose Input/Output (GPIO) pins on a Raspberry Pi (or other compatible systems). It provides a high-level, object-oriented interface for controlling digital I/O devices connected to the GPIO pins, simplifying tasks like turning LEDs on and off, reading button presses, and working with sensors. 
+
+ **from LED, Button, Buzzer** : Classes within gpiozero that provides methods to control an LED (like turning it on/off or blinking). It also allows us to control the input of the button, receiving when it is pressed. The buzzer class allows us to use the buzzer functionality from the gpiozero library as well.
+
+ **from time** :  The time library provides functions for accessing and manipulating time information, including time conversions and time-related tasks.
+
+
+**import sleep** : The sleep() function, found within Python's time module, serves to pause the execution of the current thread for a specified duration. 
+ 
+![Screenshot 2025-04-29 154333](https://github.com/user-attachments/assets/658c82de-050e-46fd-81cf-3bec75d39dd6)
+
+
 **Robot In Action** 
+
 [https://youtube.com/shorts/dCBrhuvimsw?si=dH5ITTQ_6hYjhZf1]
 
 
