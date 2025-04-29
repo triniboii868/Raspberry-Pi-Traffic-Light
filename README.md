@@ -20,7 +20,7 @@ The following pieces of apparatus below was used in my robot:
 
 1) Raspberry Pi 4
 2) Breadboard
-3) 3 x 180 ohm resistors
+3) 3 x 180 Ω resistors
 4) 3 x LEDs (Red, Green & Blue)
 5) Jumper wires
 6) Horn/Buzzer
