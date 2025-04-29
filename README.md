@@ -16,6 +16,7 @@ Using the Raspberry Pi, the options are limitless, for the sake of my final proj
 
 The following pieces of apparatus below was used in my robot:
 **Physical Apparatus**
+
 1) Raspberry Pi 4
 2) Breadboard
 3) 3 x 180 ohm resistors
@@ -25,6 +26,7 @@ The following pieces of apparatus below was used in my robot:
 7) Button
 
 **Coding Environment**
+
 This is built into the Raspberry Pi Board, it comes with a few different programming languages such as C/C++, Javascript, Python (which we used to program our robot), and a couple other languages. The coding environment which was used primarily was built into the Raspberry Pi board called Thonny. All code that is full functional will be associated with a python file named "trafficlight.py" in this repository and can be accessed by anyone. 
 
 
