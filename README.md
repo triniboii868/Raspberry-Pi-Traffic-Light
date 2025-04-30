@@ -46,7 +46,8 @@ These libraries listed below are built-in into Python and these coding environme
 
 **import sleep** : The sleep() function, found within Python's time module, serves to pause the execution of the current thread for a specified duration. 
  
-![Screenshot 2025-04-29 154333](https://github.com/user-attachments/assets/658c82de-050e-46fd-81cf-3bec75d39dd6)
+![Screenshot 2025-04-29 221222](https://github.com/user-attachments/assets/07f1a4ab-b0d8-40b2-974b-7e1c28c9ea77)
+
 
 
 **Robot In Action** 
