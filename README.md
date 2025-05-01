@@ -10,6 +10,12 @@ A Raspberry Pi device is a small, powerful, and inexpensive single-baord compute
 ## What can we do with a Raspberry Pi 4 Device?
 Using the Raspberry Pi, the options are limitless, for the sake of my final project I decided to do a programmable traffic light robot which carries out the regular functionality of a traffic light- Green, yellow, and red in specific intervals. In addition, like some European traffic lights, I added the feature of a red and yellow static light- this allows drivers and pedestrians to know when the light is about to change. It also has the functionality of a cross-walk feature which signals flashing red and yellow LEDs at a consistent pace, then speeds up at the last three seconds of the countdown timer for crossing. During this countdown and flashing of LEDs, a buzzer feature was also integrated to make pedestrians aware, if not visually, audibly. 
 
+## Understanding the GPIO Pinout 
+
+To better be able to understand the code and the assignment of the LED, Button, and Buzzer we can visualize what the GPIO pin out looks from the diagram below. It shows the pins location as well as their function it holds on the Raspberry Pi 4 board. 
+
+![Raspberry-Pi-Pinout-Random-Nerd-Tutorials](https://github.com/user-attachments/assets/a868c5e6-f694-4614-be44-daec04648d3b)
+
 ## Setup of Raspberry Pi 4 Traffic Light
 
 ![IMG_4119](https://github.com/user-attachments/assets/0fc92131-b269-46e1-8721-b8e469f603fe)
@@ -29,7 +35,6 @@ The following pieces of apparatus was used in my robot:
 **Coding Environment**
 
 This is built into the Raspberry Pi Board, it comes with a few different programming languages such as C/C++, Javascript, Python (which we used to program our robot), and a couple other languages. The coding environment which was used primarily was built into the Raspberry Pi board called Thonny. All code that is full functional will be associated with a python file named "trafficlight.py" in this repository and can be accessed by anyone. 
-
 
 ## Python Code Analysis
 
@@ -78,6 +83,7 @@ The else block runs only if the crosswalk_requested function flag is False. It h
 
 
 **Ends Traffic Light System**
+
 In the final section of the code a KeyboardInterrupt is raised, when Ctrl + C in the terminal is pressed, it turns off all of the LEDS to avoid leaving them on unintentionally. It also prints a final message letting the user know that the program is exited. 
 
 
@@ -88,5 +94,9 @@ In the final section of the code a KeyboardInterrupt is raised, when Ctrl + C in
 
 [https://youtube.com/shorts/dCBrhuvimsw?si=dH5ITTQ_6hYjhZf1]
 
+## Works Cited
 
+Santos, S., & Santos, S. (2023, July 20). Raspberry Pi Pinout Guide: How to use the Raspberry Pi GPIOs? | Random Nerd Tutorials. Random Nerd Tutorials. https://randomnerdtutorials.com/raspberry-pi-pinout-gpios/
+
+ChatGPT. (n.d.). https://chatgpt.com/  (Used to refine syntax of javascipt code) 
 
